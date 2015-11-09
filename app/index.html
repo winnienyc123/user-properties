@@ -1,0 +1,34 @@
+<html ng-app="userApp">
+<head>
+  <meta charset="utf-8">
+  <title>Shapeways User Properties Example</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+  <!-- jQuery -->
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <!-- Bower Components -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/firebase/firebase.js"></script>
+  <script src="bower_components/angularfire/dist/angularfire.js"></script>
+  <!-- JavaScript -->
+  <script src="scripts/app.js"></script>
+</head>
+
+<body ng-controller="MyController">
+<div class="container">
+  <div class="user row" ng-repeat="property in properties">
+    <div class="col-xs-4">
+      <img class="img-responsive" src="{{property.imageUrl}}" />
+    </div>
+    <div class="col-xs-8">
+      <div class="username" click-to-edit type="inputText" ng-model="property.userName"></div>
+      <div class="user-info"><i class="fa fa-envelope"></i> <span click-to-edit type="inputText" ng-model="property.email"></span></div>
+      <div class="user-info"><i class="fa fa-plus-circle"></i> <span click-to-edit type="inputText" ng-model="property.facebook"></span></div>
+      <div class="user-info"><i class="fa fa-twitter"></i> <span click-to-edit type="inputText" ng-model="property.twitter"></span></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+

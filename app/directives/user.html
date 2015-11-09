@@ -1,0 +1,10 @@
+<div class="template">
+    <span class="hover-edit-trigger">
+        <span class="hover-text-field" ng-show="!editState" ng-click="toggle()">{{model}}</span>
+        <input class="inputText" type="text" ng-model="localMemory" ng-enter="save()" ng-show="editState && type =='inputText'" />
+    </span>
+    <span class="edit-button-group" ng-show="editState">
+        <i class="fa fa-check" ng-click="save()"></i>
+        <i class="fa fa-remove" ng-click="cancel()"></i>
+    </span>
+</div>

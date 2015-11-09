@@ -1,0 +1,36 @@
+.container {
+  max-width: 750px;
+}
+.container .user {
+  margin-top: 10px;
+  padding: 30px 15px;
+  border: 1px solid #E1E1E1;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 3px 2px #e6e3e6;
+  -moz-box-shadow: 0 0 3px 2px #e6e3e6;
+  box-shadow: 0 0 3px 2px #e6e3e6;
+}
+.container .user .username {
+  font-size: 32px;
+  font-weight: bold;
+  color: #00A2EC;
+}
+.container .user .username .template {
+  display: inline-block;
+}
+.container .user .user-info {
+  color: #173644;
+  font-size: 28px;
+  padding: 3px 0;
+}
+.container .user .user-info i {
+  width: 30px;
+}
+.container .user .user-info .template {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style.css.map */

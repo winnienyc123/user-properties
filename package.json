@@ -1,0 +1,23 @@
+{
+  "name": "angularjs_user",
+  "private": true,
+  "version": "0.0.0",
+  "description": "User Properties project",
+  "main": "node server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.7.4",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "dependencies": {
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "~0.7.3",
+    "express": "~4.7.2"
+  }
+}
